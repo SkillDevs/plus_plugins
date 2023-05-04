@@ -1,3 +1,20 @@
+## 2.1.4
+
+ - **FIX**(all): Revert addition of namespace to avoid build fails on old AGPs (#1725).
+
+## 2.1.3
+
+ - **FIX**(android_alarm_manager_plus): Add compatibility with AGP 8 (Android Gradle Plugin) (#1698).
+
+## 2.1.2
+
+ - **REFACTOR**(all): Remove all manual dependency_overrides (#1628).
+ - **FIX**(all): Fix depreciations for flutter 3.7 and 2.19 dart (#1529).
+
+## 2.1.1
+
+ - **DOCS**: Updates for READMEs and website pages (#1389).
+
 ## 2.1.0
 
  - **FEAT**: we can now send extra data to alarm manager and receive it in our callback (#1014).

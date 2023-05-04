@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.1'
+        classpath 'com.android.tools.build:gradle:7.4.2'
     }
 }
 
@@ -24,6 +24,13 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 33
+
+    namespace 'dev.fluttercommunity.plus.battery'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
     defaultConfig {
         minSdkVersion 16

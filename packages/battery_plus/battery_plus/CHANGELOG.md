@@ -1,3 +1,22 @@
+## 3.0.6
+
+ - **FIX**(all): Revert addition of namespace to avoid build fails on old AGPs (#1725).
+
+## 3.0.5
+
+ - **FIX**(battery_plus): Huawei power save mode check (#1708).
+ - **FIX**(battery_plus): Add compatibility with AGP 8 (Android Gradle Plugin) (#1700).
+
+## 3.0.4
+
+ - **REFACTOR**(all): Remove all manual dependency_overrides (#1628).
+ - **FIX**(all): Fix depreciations for flutter 3.7 and 2.19 dart (#1529).
+
+## 3.0.3
+
+ - **FIX**: broadcast stream (#1479).
+ - **DOCS**: Updates for READMEs and website pages (#1389).
+
 ## 3.0.2
 
  - **FIX**: Increase min Flutter version to fix dartPluginClass registration (#1275).

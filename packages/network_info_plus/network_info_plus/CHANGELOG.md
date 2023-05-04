@@ -1,3 +1,22 @@
+## 3.0.5
+
+ - **FIX**(all): Revert addition of namespace to avoid build fails on old AGPs (#1725).
+
+## 3.0.4
+
+ - **FIX**(network_info_plus): Type cast for Linux when calling getWifiIP() (#1717).
+ - **FIX**(network_info_plus): Add compatibility with AGP 8 (Android Gradle Plugin) (#1703).
+
+## 3.0.3
+
+ - **REFACTOR**(all): Remove all manual dependency_overrides (#1628).
+ - **FIX**(network_info_plus): import original `getgateway.*` from libnatpmp (#1592).
+ - **FIX**(all): Fix depreciations for flutter 3.7 and 2.19 dart (#1529).
+
+## 3.0.2
+
+ - **DOCS**: Updates for READMEs and website pages (#1389).
+
 ## 3.0.1
 
  - **FIX**: Increase min Flutter version to fix dartPluginClass registration (#1275).

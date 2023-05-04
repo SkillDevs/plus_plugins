@@ -1,3 +1,20 @@
+## 3.1.9
+
+ - **FIX**(all): Revert addition of namespace to avoid build fails on old AGPs (#1725).
+
+## 3.1.8
+
+ - **FIX**(android_intent_plus): Add compatibility with AGP 8 (Android Gradle Plugin) (#1699).
+
+## 3.1.7
+
+ - **REFACTOR**(all): Remove all manual dependency_overrides (#1628).
+ - **FIX**(all): Fix depreciations for flutter 3.7 and 2.19 dart (#1529).
+
+## 3.1.6
+
+ - **DOCS**: Updates for READMEs and website pages (#1389).
+
 ## 3.1.5
 
  - **FIX**: lint warnings - add missing dependency for tests (#1233).

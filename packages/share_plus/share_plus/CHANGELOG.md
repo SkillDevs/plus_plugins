@@ -1,3 +1,24 @@
+## 6.3.4
+
+ - **FIX**(all): Revert addition of namespace to avoid build fails on old AGPs (#1725).
+
+## 6.3.3
+
+ - **FIX**(share_plus): Add compatibility with AGP 8 (Android Gradle Plugin) (#1706).
+ - **FIX**(share_plus_android): Fix strict compilation errors in MIME reduction function (#1650).
+
+## 6.3.2
+
+ - **FIX**(share_plus): Set exported=false for BroadcastReceiver on Android (#1613).
+ - **FIX**(package_info_plus): Make example app content scrollable (#1614).
+ - **FIX**(all): Fix depreciations for flutter 3.7 and 2.19 dart (#1529).
+
+## 6.3.1
+
+ - **FIX**: Fix the error of requestCode value range. (#1340).
+ - **FIX**: example broken on web (#1334).
+ - **DOCS**: Updates for READMEs and website pages (#1389).
+
 ## 6.3.0
 
  - **FIX**: remove `canLaunch` check (#1315).
